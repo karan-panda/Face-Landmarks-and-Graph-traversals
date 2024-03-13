@@ -33,7 +33,7 @@ btn_bfs = tk.Button(button_frame, text="BFS", command=lambda: run_script('BFS.py
 btn_bfs.grid(row=3, column=0, pady=5)
 
 # Button to select and run Dijkstra's script
-btn_dijkstra = tk.Button(button_frame, text="Dijkstra's", command=lambda: run_script('Djikstra.py'), **button_style)
+btn_dijkstra = tk.Button(button_frame, text="Dijkstra's", command=lambda: run_script('Djikstra_algo.py'), **button_style)
 btn_dijkstra.grid(row=4, column=0, pady=5)
 
 # Button to select and run A* script
