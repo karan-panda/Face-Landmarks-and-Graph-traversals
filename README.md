@@ -9,7 +9,7 @@ This application combines face landmark tracking with graph traversal visualizat
 1. **Clone the Repository**: First, clone the repository to your local machine using the following command:
 
 ```
-https://github.com/karan-panda/Face-Landmarks-and-Graph-traversals
+git clone https://github.com/karan-panda/Face-Landmarks-and-Graph-traversals
 ```
 
 2. **Install Dependencies**: Navigate to the project directory and install the required dependencies by running:
