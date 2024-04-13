@@ -24,21 +24,24 @@ btn_landmark_generator.grid(row=0, column=0, pady=5)
 btn_landmark_motion_visualizer = tk.Button(button_frame, text="Landmark Motion Visualizer", command=lambda: run_script('Landmark_motion_visualizer.py'), **button_style)
 btn_landmark_motion_visualizer.grid(row=1, column=0, pady=5)
 
+btn_emotion_detection = tk.Button(button_frame, text="Realtime Emotion Detection", command=lambda: run_script('RealtimeEmotionDetection.py'), **button_style)
+btn_emotion_detection.grid(row=2, column=0, pady=5)
+
 # Button to select and run DFS script
 btn_dfs = tk.Button(button_frame, text="DFS", command=lambda: run_script('DFS.py'), **button_style)
-btn_dfs.grid(row=2, column=0, pady=5)
+btn_dfs.grid(row=3, column=0, pady=5)
 
 # Button to select and run BFS script
 btn_bfs = tk.Button(button_frame, text="BFS", command=lambda: run_script('BFS.py'), **button_style)
-btn_bfs.grid(row=3, column=0, pady=5)
+btn_bfs.grid(row=4, column=0, pady=5)
 
 # Button to select and run Dijkstra's script
 btn_dijkstra = tk.Button(button_frame, text="Dijkstra's", command=lambda: run_script('Djikstra_algo.py'), **button_style)
-btn_dijkstra.grid(row=4, column=0, pady=5)
+btn_dijkstra.grid(row=5, column=0, pady=5)
 
 # Button to select and run A* script
 btn_astar = tk.Button(button_frame, text="A*", command=lambda: run_script('A_star.py'), **button_style)
-btn_astar.grid(row=5, column=0, pady=5)
+btn_astar.grid(row=6, column=0, pady=5)
 
 # Button to select and run any other script
 btn_select_script = tk.Button(root, text="Select and Run Other Script", command=select_script)
