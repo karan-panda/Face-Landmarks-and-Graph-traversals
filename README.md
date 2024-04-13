@@ -1,6 +1,8 @@
-# FaceLandmark Tracker & Graph Traversal Visualizer 🎯🔍
+# FaceLandmark Tracker, Graph Traversal Visualizer & Emotion Detection 🎯🔍😃
 
 This application combines face landmark tracking with graph traversal visualization. It allows users to track 468 landmarks of a face in a video, store the landmark data in MongoDB, and replay the landmark motion. Additionally, users can visualize graph traversal algorithms such as Breadth-First Search (BFS), Depth-First Search (DFS), A* algorithm, and Dijkstra's algorithm across the landmarks.
+
+The machine learning model added for emotion recognition is trained on facial expression data, and it classifies each face into one of seven categories: 'angry', 'disgust', 'fear', 'happy', 'neutral', 'sad' and 'surprise', this feature further enhances the abilty of the application making it more versatile.
 
 ## Installation and Usage 🛠️📝
 
@@ -45,6 +47,7 @@ python main.py
 ## Features 🚀
 
 - **Face Landmark Tracking**: Utilizes MediaPipe to detect and track 468 landmarks of a face in a video.
+- **Emotion Detection**: Uses machine learning to detect seven emotions based on facial expressions.
 - **MongoDB Integration**: Stores the face landmark data of each frame in MongoDB for future reference.
 - **Landmark Motion Replay**: Users can replay the motion of face landmarks from stored data.
 - **Graph Traversal Visualization**: Offers visualization of BFS, DFS, A*, and Dijkstra's algorithm traversing across the landmarks.
@@ -57,3 +60,4 @@ python main.py
 - NumPy 🔢
 - pymongo 📁
 - NetworkX 📊
+- Machine Learning 🧠
